@@ -39,6 +39,7 @@ vector<vector<State>> ReadBoardFile(string path) {
   return board;
 }
 
+// TODO: Write the Search function stub here.
 std::vector<vector<State>> Search
 
 string CellString(State cell) {
@@ -58,6 +59,9 @@ void PrintBoard(const vector<vector<State>> board) {
 }
 
 int main() {
+  // TODO: Declare "init" and "goal" arrays with values {0, 0} and {4, 5} respectively.
   auto board = ReadBoardFile("1.board");
+  // TODO: Call Search with "board", "init", and "goal". Store the results in the variable "solution".
+  // TODO: Change the following line to pass "solution" to PrintBoard.
   PrintBoard(board);
 }
